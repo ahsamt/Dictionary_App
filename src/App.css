@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  color: var(--headings-color);
+  font-family: "Cardo", serif;
+  font-size: 53px;
+  font-stretch: expanded;
+  padding: 30px 15px 30px 15px;
+}

@@ -1,0 +1,10 @@
+.Phonetics .ph-sound {
+  color: var(--button-color);
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: ease-in-out 200ms;
+}
+.Phonetics .ph-sound:hover {
+  color: var(--red-color);
+}

@@ -1,0 +1,16 @@
+.Dictionary .search-field {
+  margin: 0 0 15px 0;
+  text-align: center;
+  border-radius: 7px;
+  width: 230px;
+  padding: 5px 15px;
+  outline: none;
+}
+.Dictionary .search-button {
+  background-color: var(--button-color);
+  color: var(--background-color);
+  font-size: 14px;
+  border-radius: 7px;
+  padding: 5px 15px;
+  font-weight: bold;
+}

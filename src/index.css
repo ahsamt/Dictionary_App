@@ -1,0 +1,15 @@
+:root {
+  --background-color: #f6f0e3;
+  --headings-color: #583413;
+  --button-color: #608893;
+  --red-color: #7c0a02;
+  --teal-color: #3a6d7a;
+}
+
+body {
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.5;
+  background-color: var(--background-color);
+  font-family: "Libre Franklin", sans-serif;
+}

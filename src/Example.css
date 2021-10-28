@@ -1,0 +1,4 @@
+.Example .ex-part {
+  color: var(--teal-color);
+  opacity: 0.7;
+}
