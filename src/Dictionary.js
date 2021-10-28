@@ -29,7 +29,7 @@ export default function Dictionary() {
       .get(apiURL)
       .then(getAPIResponse)
       .catch(function (error) {
-        alert(`Sorry, the word "${word}" is not in this dictionary`);
+        window.alert(`Sorry, the word "${word}" is not in this dictionary`);
       });
     axios.get(pexelsApiUrl, { headers: headers }).then(getPexelsResponse);
     event.target.reset();
