@@ -9,7 +9,7 @@ export default function SearchResults(props) {
       <div className="SearchResults">
         <div className="word-details">
           <h2>{props.result.word}</h2>
-          <div class="row">
+          <div className="row">
             {props.result.phonetics.map(function (pronunciation, index) {
               return (
                 <div key={index} className="col">

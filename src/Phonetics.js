@@ -11,7 +11,7 @@ export default function Phonetics(props) {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="fas fa-play-circle"></i>
+        <i className="fas fa-play-circle"></i>
       </a>
     </div>
   );
