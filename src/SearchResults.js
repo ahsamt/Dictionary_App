@@ -5,12 +5,18 @@ import Phonetics from "./Phonetics";
 
 export default function SearchResults(props) {
   if (props.result) {
+    let exists = new Set();
+    const cleanPhonetics = props.result.phonetics.filter((item) => {
+      let duplicate = exists.has(item.text) | !("text" in item);
+      exists.add(item.text);
+      return !duplicate;
+    });
     return (
       <div className="SearchResults">
         <div className="word-details">
           <h2>{props.result.word}</h2>
           <div className="row">
-            {props.result.phonetics.map(function (pronunciation, index) {
+            {cleanPhonetics.map(function (pronunciation, index) {
               return (
                 <div key={index} className="col">
                   <Phonetics phonetics={pronunciation} />
